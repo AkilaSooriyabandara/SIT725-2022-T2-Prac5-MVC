@@ -1,0 +1,31 @@
+{
+  "name": "sit725-2022-T2-prac4-second",
+  "version": "1.0.0",
+  "description": "week 5 prac for SIT 725 2022",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkilaSooriyabandara/sit725-2022-t2-prac5.git"
+  },
+  "keywords": [
+    "Express",
+    "NodeJs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AkilaSooriyabandara/sit725-2022-t2-prac5/issues"
+  },
+  "homepage": "https://github.com/AkilaSooriyabandara/sit725-2022-t2-prac5#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.17.3",
+    "mongodb": "^4.10.0",
+    "socket.io": "^4.5.2"
+  }
+}
